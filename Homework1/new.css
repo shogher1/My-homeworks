@@ -1,0 +1,49 @@
+body{
+    background-color: #D6EAF8;
+}
+*::selection{
+background-color: rgb(64, 15, 240);
+}
+h1::first-letter{
+    color: #1F618D;
+    font-size: larger;
+    font-family: Arnoldboecklin, fantasy;
+    font-style: italic;
+}
+h1{
+    color: #2980B9; 
+    font-style: italic;
+}
+h2{
+    color: #27278c;
+}
+.about-me {
+    font-size: small;
+}
+p,li,td{
+    font-size: larger;
+}
+th{
+    font-size: 20px;
+}
+table { 
+    border-color: slateblue;
+    border-style: double;
+    }
+ .information{
+     text-decoration: underline;
+     color:#551A8B;
+
+ }   
+.information:hover{
+    font-size: 22px;
+}
+     a:hover{
+        font-size: 22px;
+    } 
+ input::placeholder{
+     color: rgb(13, 75, 190);
+ }  
+button{
+    color:rgb(5, 26, 65);
+}
