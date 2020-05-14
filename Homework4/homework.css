@@ -1,0 +1,24 @@
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid red 10px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 25px;
+    animation-name: warning;
+    animation: none;
+    
+    
+}
+div.span{
+      color: black;
+    }
+@keyframes warning {
+      from {background-color: none; color: black;font-size: 25px; }
+      to {background-color: yellow; color: red; font-size: 35px;}
+    }
+      
+div:hover{
+  animation: warning 2s infinite;
+}
