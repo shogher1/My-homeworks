@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(255, 255, 26);
+}
+.grid-container{
+    display: grid;
+    grid-gap: 50px 50px;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(2, 300px);
+    align-items: center;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(173, 216, 230);
+}
+.rectangle{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(230, 173, 173);
+   ;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(173, 230, 173);
+}
+.round{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(112, 112, 197);
+
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid rgb(173, 173, 230);
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+}
+.trapezoid{
+    height: 0;
+    width: 150px;
+    border-bottom: 150px solid rgb(255, 102, 255);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+.part1{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid rgb(255, 102, 140);
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent;
+}
+.part2{
+    width: 0;
+    height: 0;
+    border-top: 100px solid rgb(255, 102, 140);
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent;
+}
+.parallelogram{
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background-color: rgb(255, 133, 102);
+}
